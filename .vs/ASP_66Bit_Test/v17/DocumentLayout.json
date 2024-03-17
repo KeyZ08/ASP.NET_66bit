@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\views\\footballer\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:views\\footballer\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\views\\footballer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:views\\footballer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\models\\footballerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:models\\footballerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\controllers\\footballercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:controllers\\footballercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\asp_66bit_test\\domain\\entities\\footballer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E21332-3D75-440F-8A40-F819E6C5562E}|ASP_66Bit_Test.csproj|solutionrelative:entities\\footballer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Views\\Footballer\\All.cshtml",
+              "RelativeDocumentMoniker": "Views\\Footballer\\All.cshtml",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Views\\Footballer\\All.cshtml",
+              "RelativeToolTip": "Views\\Footballer\\All.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T09:49:26.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Footballer.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Entities\\Footballer.cs",
+              "RelativeDocumentMoniker": "Entities\\Footballer.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Entities\\Footballer.cs",
+              "RelativeToolTip": "Entities\\Footballer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T09:17:37.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T08:19:59.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAcwGgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T09:01:14.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Views\\Footballer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Footballer\\Edit.cshtml",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Views\\Footballer\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Footballer\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T06:13:03.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FootballerViewModel.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Models\\FootballerViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\FootballerViewModel.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Models\\FootballerViewModel.cs",
+              "RelativeToolTip": "Models\\FootballerViewModel.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwCEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T12:30:37.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FootballerController.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Controllers\\FootballerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FootballerController.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ASP_66Bit_Test\\Domain\\Controllers\\FootballerController.cs",
+              "RelativeToolTip": "Controllers\\FootballerController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowDwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:46:43.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

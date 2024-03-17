@@ -1,0 +1,67 @@
+﻿@using ASP_66Bit_Test.Entities
+@model List<Footballer>
+@{
+    ViewData["Title"] = "Футболисты";
+}
+
+<script>
+    $(document).ready(function () {
+        $('.delete-btn').click(function () {
+            var id = $(this).data('id');
+            if (confirm('Уверены, что хотите удалить данного футболиста?')) {
+                $.ajax({
+                    url: '/Footballer/Delete',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function () {
+                        $(this).closest('tr').remove();
+                    }.bind(this),
+                    error: function () {
+                        alert('Произошла ошибка при удалении');
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<div class="container">
+    <div class="text-center">
+        <h1>Футболисты</h1>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Дата рождения</th>
+                    <th>Пол</th>
+                    <th>Страна</th>
+                    <th>Команда</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr style="background-color: #D2D2D2;">
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", "Footballer", new { id = item.Id })
+                        </td>
+                        <td>
+                            <button class="btn btn-danger delete-btn" data-id="@item.Id">Delete</button>
+                        </td>
+                        <td> @item.Name </td>
+                        <td> @item.Family </td>
+                        <td> @item.BirthDate </td>
+                        <td> @item.Gender </td>
+                        <td> @item.Country?.Name </td>
+                        <td> @item.Team?.Name </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

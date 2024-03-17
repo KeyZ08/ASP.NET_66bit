@@ -1,0 +1,89 @@
+﻿@model FootballerViewModel
+@{
+    ViewData["Title"] = "Футболист";
+}
+
+<script>
+    $(document).ready(function () {
+        $('#NewTeamCreate').change(function () {
+            if (this.checked) {
+                $('#TeamId').hide();
+                $('#NewTeam').show();
+            } else {
+                $('#TeamId').show();
+                $('#NewTeam').hide();
+            }
+        });
+        $('#NewTeamCreate').change();
+    });
+</script>
+
+<script>
+    $('#saveEdit').click(function () {
+        var form = $('#editModal form');
+        $.ajax({
+            url: form.attr('action'),
+            type: 'POST',
+            data: form.serialize(),
+            success: function (data) {
+                if (data.success) {
+                    $('#editModal').modal('hide');
+                } else {
+                    $('#editModal .modal-body').html(data);
+                }
+            },
+            error: function () {
+                alert('Произошла ошибка при сохранении изменений');
+            }
+        });
+    });
+</script>
+
+<div class="container">
+    <div class="text-center">
+        <h1>Изменить футболиста</h1>
+    </div>
+    @using (Html.BeginForm("Edit", "Footballer", FormMethod.Post))
+    {
+        @Html.ValidationSummary("", new { style = "font-size:23px; font-family:Impact", @class = "text-danger text-center" })
+        @Html.HiddenFor(m => m.Id)
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Имя</label>
+                @Html.TextBoxFor(m => m.Name, "", new { @class = "form-control" })
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Фамилия</label>
+                @Html.TextBoxFor(m => m.Family, "", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Дата рождения</label>
+            <input class="form-control" asp-for="BirthDate" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Пол</label>
+            @Html.RadioButtonFor(m => m.Gender, "man", false) мужской
+            @Html.RadioButtonFor(m => m.Gender, "woman", false) женский
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Команда</label>
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.DropDownListFor(m => m.TeamId, new SelectList(ViewBag.Teams, "Id", "Name"), "Select Team", new { @class = "form-select", id = "TeamId" })
+                    @Html.TextBoxFor(m => m.NewTeam, new { @class = "form-control", placeholder = "Введите новую команду", id = "NewTeam" })
+                </div>
+                <div class="col-md-4">
+                    @Html.CheckBoxFor(m => m.NewTeamCreate, new { id = "NewTeamCreate" }) Ввести новую
+                </div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Страна</label>
+            @Html.DropDownListFor(m => m.CountryId, new SelectList(ViewBag.Countries, "Id", "Name"), "Выберите страну", new { @class = "form-select" })
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" type="submit">Сохранить</button>
+        </div>
+    }
+</div>
